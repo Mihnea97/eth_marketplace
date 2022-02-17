@@ -29,11 +29,11 @@ class Navbar extends Component {
         </div>
         <div className='menu'>
           <div className='menu-list'>
-              <Link to="/home" className={ this.props.selected === 'home' ? 'selected' : '' }><a>Home</a></Link>
-              <Link to="/marketplace"><a className={ this.props.selected === 'marketplace' ? 'selected' : '' }>MarketPlace</a></Link>
-              <Link to="/account" className={ this.props.selected === 'account' ? 'selected' : '' }><a>Account</a></Link>
-              <Link to="/add-product" className={ this.props.selected === 'add-product' ? 'selected' : '' }><a>Add Product</a></Link>
-              <Link to="/my-products" className={ this.props.selected === 'my-products' ? 'selected' : '' }><a>My Products</a></Link>
+              <Link to="/home" className={ this.props.selected === 'home' ? 'selected' : '' }>Home</Link>
+              <Link to="/marketplace" className={ this.props.selected === 'marketplace' ? 'selected' : '' }>MarketPlace</Link>
+              <Link to="/account" className={ this.props.selected === 'account' ? 'selected' : '' }>Account</Link>
+              <Link to="/add-product" className={ this.props.selected === 'add-product' ? 'selected' : '' }>Add Product</Link>
+              <Link to="/my-products" className={ this.props.selected === 'my-products' ? 'selected' : '' }>My Products</Link>
           </div>
         </div>
       </nav>
