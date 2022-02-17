@@ -1,0 +1,61 @@
+.app-container .main-nav .top-banner {
+    display: flex;
+    background-color: #FFFC31;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;  
+}
+
+.app-container .main-nav .top-banner .logo {
+    display: flex;
+    align-items: center;
+}
+
+.app-container .main-nav .top-banner .logo img {
+    width: 43px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.app-container .main-nav .top-banner .logo a {
+    font-size: 22px;
+    color: #404E5C;
+    font-weight: 600;
+}
+
+.app-container .main-nav .top-banner .account-info {
+    margin: 0px;
+}
+
+.menu {
+    border-bottom: 3px solid #404E5C;
+    border-top: 1px solid #404E5C;
+}
+
+.menu .menu-list {
+    display: flex;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-bottom: -3px;
+}
+
+.menu .menu-list a{
+    font-size: 24px;
+    margin-right: 20px;
+    padding: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.menu .menu-list a:hover {
+    border-bottom: 3px solid #FFFC31;
+    padding-bottom: 9px;
+}
+
+.menu .menu-list .selected {
+    border-bottom: 3px solid #FFFC31;
+    padding-bottom: 9px;
+}
